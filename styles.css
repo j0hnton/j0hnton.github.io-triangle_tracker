@@ -1,0 +1,17 @@
+p{
+  font-family:Source Code Pro;
+  font-size:150%;
+  color:white;
+
+}
+body{
+  background-color: black;
+  margin-left: 30%;
+}
+button{
+  font-family: Source Code Pro;
+}
+form{
+  border: 2px 2px orange;
+  border-radius: 20%;
+}

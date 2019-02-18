@@ -20,10 +20,7 @@ function  tracker(){
       document.getElementById("result").innerHTML='ISOSCELESS';
     }
 
-  else if (triangle[0]+triangle[1]<triangle[2] || triangle[1]+triangle[2]<triangle[0] || triangle[2]+triangle[0]<triangle[1]){
+  else if (triangle[0]+triangle[1]<triangle[2] || triangle[1]+triangle[2]<triangle[0] || triangle[2]+triangle[0]<triangle[1] && triangle[0]+triangle[1]!==triangle[2] || triangle[1]+triangle[2]!==triangle[0] || triangle[2]+triangle[0]!==triangle[1] ){
       document.getElementById("result").innerHTML="NOT A TRIANGLE";
-}
-else (triangle[0]+triangle[1]===triangle[2] || triangle[1]+triangle[2]===triangle[0] || triangle[2]+triangle[0]===triangle[1]);{
-document.getElementsByTagName("result").innerHTML="NOT A TRIANGLE";
 }
 }
