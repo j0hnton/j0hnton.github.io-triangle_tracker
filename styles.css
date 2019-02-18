@@ -1,6 +1,6 @@
 p{
   font-family:Source Code Pro;
-  font-size:200%;
+  font-size:150%;
   color:white;
 
 }
@@ -12,10 +12,10 @@ body{
 }
 button{
   font-family: Source Code Pro;
-  
+
 }
 #form{
-  ;
+  margin-left:10%;
 
 
 }
@@ -27,7 +27,7 @@ button{
 }
 result{
   font-family:sans-serif;
-  text-align:center;
+  margin-left: 20%;
 }
 h1{
   font-family:Orbitron;
