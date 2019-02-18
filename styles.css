@@ -22,7 +22,7 @@ button{
 #move{
   display: flex;
   flex:column;
-  float:left;
+  float:right;
 
 }
 result{
@@ -31,7 +31,7 @@ result{
 }
 h1{
   font-family:fantasy;
-  color:white;
+  color:grey;
   text-shadow: 2px 2px #2874A6;
   font-size:200%;
 }
