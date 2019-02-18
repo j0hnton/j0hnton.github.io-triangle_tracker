@@ -1,7 +1,7 @@
 p{
   font-family:Source Code Pro;
   font-size:150%;
-  color:grey;
+  color:white;
 
 }
 body{
@@ -22,7 +22,7 @@ button{
 #move{
   display: flex;
   flex:column;
-  float:right;
+  float:left;
 
 }
 result{
@@ -30,8 +30,8 @@ result{
   margin-left: 20%;
 }
 h1{
-  font-family:fantasy;
+  font-family:Orbitron;
   color:white;
-  text-shadow: 1px 2px #2874A6;
+  text-shadow: 2px 2px #2874A6;
   font-size:200%;
 }
