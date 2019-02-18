@@ -2,24 +2,30 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron|Source+Code+Pro" rel="stylesheet">
 
     <meta charset="utf-8">
     <title></title>
   </head>
+  <h1>TRIANGLE TRACKER</h1>
   <body>
-    <div id="form ">  <form >
-      <p>  LENGHT (a)</p>
+    <div id="form"> <form >
+      <p>  Length a</p>
         <input type="number" id="a" value="">
-      <p> LENGTH (b)</p>
+      <p> Length b</p>
         <input type="number" id="b" value="">
-      <p>  LENGTH (c)</p>
+      <p>  Length c</p>
         <input type="number" id="c" value=""><br><br>
-        <button class="button" type="button" name="button" onclick="tracker()">TRACK</button><br><br>
-        <button class="button" type="reset" name="button">RESET</button><br><br>
+    <div id="move">
+      <button class="button" type="button" name="button" onclick="tracker()"><img src="https://cdn.dribbble.com/users/100346/screenshots/4049150/checkmark.gif" alt="CHECK" width=50 height=40></button><br><br>
+
+        <button class="button" type="reset" name="button"><img src="https://cdn.dribbble.com/users/2024706/screenshots/4520414/reload.gif" alt="REFRESH" width=50 height=40 ></button><br><br></div>
       </form>
       </div>
-        <p id="result"></p>
+      <br><br>
+      <br><br>
+
+      <p id="result"></p>
       <script type="text/javascript" src="javascript.js"></script>
   </body>
 </html>

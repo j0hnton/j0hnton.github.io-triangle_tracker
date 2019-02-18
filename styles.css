@@ -1,17 +1,37 @@
 p{
   font-family:Source Code Pro;
-  font-size:150%;
+  font-size:200%;
   color:white;
 
 }
 body{
-  background-color: black;
+  background-image: url(https://i.pinimg.com/originals/d3/21/2f/d3212fb4322d209eec45d6f6ddadb5ad.jpg);
+  background-size: cover;
+  background-repeat: repeat-x;
   margin-left: 30%;
 }
 button{
   font-family: Source Code Pro;
+  
 }
-form{
-  border: 2px 2px orange;
-  border-radius: 20%;
+#form{
+  ;
+
+
+}
+#move{
+  display: flex;
+  flex:column;
+  float:left;
+
+}
+result{
+  font-family:sans-serif;
+  text-align:center;
+}
+h1{
+  font-family:Orbitron;
+  color:white;
+  text-shadow: 2px 2px #2874A6;
+  font-size:200%;
 }
