@@ -1,13 +1,13 @@
 p{
   font-family:Source Code Pro;
   font-size:150%;
-  color:grey;
+  color:white;
 
 }
 body{
   background-image: url(https://i.pinimg.com/originals/d3/21/2f/d3212fb4322d209eec45d6f6ddadb5ad.jpg);
   background-size: cover;
-  background-repeat: repeat-x;
+  background-repeat:no-repeat;
   margin-left: 30%;
 }
 button{
